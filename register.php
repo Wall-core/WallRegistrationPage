@@ -4,7 +4,7 @@ require_once "config.php";
 
 // Define variables and initialize with empty values
 $username = $password = $email = "";
-$username_err = $password_err = $email_err = ""; 
+$username_err = $password_err = $passver_err = $email_err = ""; 
 $regname = 'Enter registration handler account name here'; //  (create gmlvl 6 account, enable soap in mangosd.conf - soap uses a dummy gm account to handle registration)
 $regpass = 'Enter registration handler account pass here';
 $host = "Enter Host IP here - ex 127.0.0.1";
